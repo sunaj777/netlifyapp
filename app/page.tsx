@@ -1,7 +1,7 @@
 import { IoMdBicycle } from "react-icons/io";
 import { IoCartOutline, IoReorderThreeOutline } from "react-icons/io5";
 import { CiBellOn, CiLinkedin } from "react-icons/ci";
-import { Avatar, Card, Col, Rate, Row, Slider } from "antd";
+import { Avatar, Badge, Card, Col, Rate, Row, Slider } from "antd";
 import { MdArrowOutward } from "react-icons/md";
 import {
   FaFacebookSquare,
@@ -37,10 +37,27 @@ export default function Home() {
           </div>
 
           <div className="flex items-center space-x-4">
-            <CiBellOn style={{ fontSize: "1.5rem", color: "#000" }} />
-            <IoCartOutline style={{ fontSize: "1.5rem", color: "#000" }} />
+           
+            <div style={{ borderRadius: '50%', border: '0.5px solid black', padding: '4px' }}>
+    <CiBellOn style={{ fontSize: '1.3rem', color: '#000' }} />
+</div>
+
+<Badge count={7}>
+      <Avatar
+        style={{
+          backgroundColor: 'white',
+          color: 'black',
+          border: '1px solid black',
+          borderRadius: '50%',
+          padding: '3px' 
+        }}
+        icon={  <IoCartOutline />}
+        shape="circle"
+      />
+    </Badge>
+
             <Avatar
-              src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
               size={32}
             />
           </div>
