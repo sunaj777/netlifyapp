@@ -37,24 +37,29 @@ export default function Home() {
           </div>
 
           <div className="flex items-center space-x-4">
-           
-            <div style={{ borderRadius: '50%', border: '0.5px solid black', padding: '4px' }}>
-    <CiBellOn style={{ fontSize: '1.3rem', color: '#000' }} />
-</div>
+            <div
+              style={{
+                borderRadius: "50%",
+                border: "0.5px solid black",
+                padding: "4px",
+              }}
+            >
+              <CiBellOn style={{ fontSize: "1.3rem", color: "#000" }} />
+            </div>
 
-<Badge count={7}>
-      <Avatar
-        style={{
-          backgroundColor: 'white',
-          color: 'black',
-          border: '1px solid black',
-          borderRadius: '50%',
-          padding: '3px' 
-        }}
-        icon={  <IoCartOutline />}
-        shape="circle"
-      />
-    </Badge>
+            <Badge count={7}>
+              <Avatar
+                style={{
+                  backgroundColor: "white",
+                  color: "black",
+                  border: "1px solid black",
+                  borderRadius: "50%",
+                  padding: "3px",
+                }}
+                icon={<IoCartOutline />}
+                shape="circle"
+              />
+            </Badge>
 
             <Avatar
               src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
