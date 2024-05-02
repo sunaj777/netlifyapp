@@ -1,7 +1,6 @@
-import { IoMdBicycle } from "react-icons/io";
 import { IoCartOutline, IoReorderThreeOutline } from "react-icons/io5";
-import { CiBellOn, CiLinkedin } from "react-icons/ci";
-import { Avatar, Badge, Card, Col, Rate, Row, Slider } from "antd";
+import { CiBellOn } from "react-icons/ci";
+import { Avatar, Badge,  Rate } from "antd";
 import { MdArrowOutward } from "react-icons/md";
 import {
   FaFacebookSquare,
