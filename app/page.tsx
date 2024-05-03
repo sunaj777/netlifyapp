@@ -88,7 +88,8 @@ export default function Home() {
               placeholder="Search..."
               className="w-full search-input px-4 py-2 border border-black rounded-full"
             />
-            <button className="ml-4 px-6 py-2 bg-blue-500 text-white rounded-full">
+            <button className="ml-4 px-6 py-2 bg-black text-white rounded-full">
+      
               Search
             </button>
           </div>
