@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import {  Tooltip } from "antd";
+import { Tooltip } from "antd";
 import { IoCartOutline, IoReorderThreeOutline } from "react-icons/io5";
 import { CiBellOn } from "react-icons/ci";
 import { Avatar, Badge, Rate } from "antd";
@@ -74,26 +74,26 @@ export default function Home() {
       <div className="flex mt-6">
         <div className="bg-white w-[50%] flex flex-col justify-center items-start py-8 px-12">
           <div className="mb-8">
-            <h1 className="text-5xl font-bold mb-2">Discovering the</h1>
-            <h1 className="text-5xl font-bold mb-2">Undiscovered</h1>
-            <h1 className="text-5xl font-bold">Charms</h1>
+            <h1 className="text-6xl font-bold mb-6">Discovering the</h1>
+            <h1 className="text-6xl font-bold mb-6">Undiscovered</h1>
+            <h1 className="text-6xl font-bold">Charms</h1>
           </div>
+
           <p className="text-lg text-gray-800 mb-6">
             Provider in YogaKarat with a sustainable tourism concept delivering
             a meaningful journey cycling tours
           </p>
-          <div className="flex items-center w-full mb-6">
+          <div className="flex items-center w-full mb-10">
             <input
               type="text"
               placeholder="Search..."
-              className="w-full search-input px-4 py-2 border border-black rounded-full"
+              className="w-full search-input px-4 py-2 border border-black rounded-full h-[56px]"
             />
-            <button className="ml-4 px-6 py-2 bg-black text-white rounded-full">
-      
+            <button className="ml-4 px-6 py-2 bg-black text-white rounded-full h-[56px]">
               Search
             </button>
           </div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-4 w-[420px]">
             <img
               src="https://dreamy-stardust-95cd55.netlify.app/static/media/cycle0-.910616741f8663106d01.jpg"
               alt=""
@@ -241,30 +241,31 @@ export default function Home() {
           />
         </div>
 
-        <div className="flex flex-col w-3/4">
-          <div className="flex items-center p-4">
-            <p className="text-sm">
+        <div className="flex flex-col w-3/4 ">
+          <div className="flex items-center justify-between w-[80%]">
+            <p className="text-base font-normal leading-6 tracking-tight mb-0">
               Which means that your heart, diaphragm, and lungs all perspire and
-              experience <br /> increased
+              experience
+              <br /> increased
             </p>
+
             <img
               src="https://dreamy-stardust-95cd55.netlify.app/static/media/helmet3.bc7070eb9cba4d0a45ab.jpg"
               alt=""
               className="rounded-full w-[200px] h-[200px] ml-4"
             />
           </div>
-          <div className="flex flex-col pl-4 ">
-            <p className="text-4xl font-bold mb-2">Make Everyday</p>
-            <p className="text-4xl font-bold mb-2">Extra Ordinary</p>
-            <p className="text-4xl font-bold mb-2">Journey</p>
+
+          <div className="flex flex-col ">
+            <p className="text-5xl font-bold mb-6">Make Everyday</p>
+            <p className="text-5xl font-bold mb-6">Extra Ordinary</p>
+            <p className="text-5xl font-bold mb-4">Journey</p>
           </div>
-          <div className="p-4">
-            <p className="text-sm">
-              Our Bikes are strength you can drive daily. Take a penny to work,
-              to be the gym for a meetup with friends, you will be rolling in
-              style.
-            </p>
-          </div>
+
+          <p className="text-sm ">
+            Our Bikes are strength you can drive daily. Take a penny to work, to
+            be the gym for a meetup with friends, you will be rolling in style.
+          </p>
         </div>
       </div>
 
@@ -343,7 +344,7 @@ export default function Home() {
       </div>
 
       <div className="bg-black w-screen h-[530px] flex flex-col justify-center items-center mt-6">
-        <div className="text-center mb-4">
+        <div className="text-center mt-6">
           <h1 className="text-5xl font-bold text-white">
             Ride Bike to the Heaven With Us
           </h1>
