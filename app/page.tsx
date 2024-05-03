@@ -1,6 +1,9 @@
+"use client";
+import React from "react";
+import {  Tooltip } from "antd";
 import { IoCartOutline, IoReorderThreeOutline } from "react-icons/io5";
 import { CiBellOn } from "react-icons/ci";
-import { Avatar, Badge,  Rate } from "antd";
+import { Avatar, Badge, Rate } from "antd";
 import { MdArrowOutward } from "react-icons/md";
 import {
   FaFacebookSquare,
@@ -110,7 +113,7 @@ export default function Home() {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="w-[300px] flex flex-col justify-center items-start ml-8">
+          <div className="w-[300px] flex flex-col justify-center items-start ml-8 gap-2">
             <img
               src="https://dreamy-stardust-95cd55.netlify.app/static/media/cycle0-.910616741f8663106d01.jpg"
               alt=""
@@ -129,6 +132,25 @@ export default function Home() {
             <h3 className="text-2xl font-bold mt-4">4.9</h3>
             <p className="text-md mb-2">Our customer rating</p>
             <Rate disabled defaultValue={5} />
+            <Avatar.Group size="large">
+              <Tooltip title=" Michonne" placement="top">
+                {" "}
+                <Avatar src="https://randomuser.me/api/portraits/women/50.jpg" />
+              </Tooltip>
+              <Tooltip title="James" placement="top">
+                {" "}
+                <Avatar src="https://randomuser.me/api/portraits/men/51.jpg" />
+              </Tooltip>{" "}
+              <Tooltip title=" Emily" placement="top">
+                <Avatar src="https://randomuser.me/api/portraits/women/52.jpg" />
+              </Tooltip>{" "}
+              <Tooltip title=" Peter" placement="top">
+                <Avatar src="https://randomuser.me/api/portraits/men/53.jpg" />
+              </Tooltip>{" "}
+              <Tooltip title=" Ziya" placement="top">
+                <Avatar src="https://randomuser.me/api/portraits/women/54.jpg" />
+              </Tooltip>
+            </Avatar.Group>
             <p className="text-md text-gray-600 mb-4">
               Provider in Yogakarta with <br />a meaningful journey
             </p>
